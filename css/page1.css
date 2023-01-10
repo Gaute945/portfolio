@@ -1,13 +1,3 @@
-:root {
-    --light_purple: #661f2e90;
-    --purple: #70225a86;
-    --blue_purple: #521f597d;
-    --blue_purple2: #5222707a;
-    --blue_purple3: #371f667c;
-    --overskrift: Verdana, Geneva, Tahoma, sans-serif;
-    --brødtekst: Georgia, 'Times New Roman', Times, serif;
-  }
-
 body {
   overflow-x: hidden;
   background-color: var(--blue_purple3);
@@ -28,31 +18,17 @@ header {
   font-family: var(--overskrift)
 }
 
-/*
-.front_bilde {
-  height: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), /*url(picture url);
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  float: right;
+.list {
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
-
-#front_bilde {
-  height: 100%;
-  width: 69%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://blogs.voanews.com/techtonics/files/2017/01/HourofCode-2013.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 10px;
-  float: right;
-}
-*/
 
 .tekst {
   color: rgb(255, 255, 255);
   font-family: var(--brødtekst);
   margin: 1%;
+  text-decoration: none;
+  font-size: 110%;
 }
 
 .overskrift {
@@ -60,6 +36,7 @@ header {
   font-family: var(--overskrift);
   margin: 1%;
   font-size: 170%;
+  text-decoration: none;
 }
 
 .backdrop {

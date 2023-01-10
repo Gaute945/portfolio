@@ -1,14 +1,4 @@
-:root {
-    --light_purple: #661f2e90;
-    --purple: #70225a86;
-    --blue_purple: #521f597d;
-    --blue_purple2: #5222707a;
-    --blue_purple3: #371f667c;
-    --overskrift: Verdana, Geneva, Tahoma, sans-serif;
-    --brødtekst: Georgia, 'Times New Roman', Times, serif;
-  }
-
-  body {
+body {
     overflow-x: hidden;
     background-color: var(--blue_purple3);
   }
@@ -23,16 +13,17 @@
 }
 
 .tekst {
-    color: rgb(255, 255, 255);
-    font-family: var(--brødtekst);
-    margin: 1%;
-    text-decoration: none !important;
-  }
+  color: rgb(255, 255, 255);
+  font-family: var(--brødtekst);
+  margin: 1%;
+  text-decoration: none;
+  font-size: 110%;
+}
   
-  .overskrift {
-    color: rgb(255, 255, 255);
-    font-family: var(--overskrift);
-    margin: 1%;
-    font-size: 170%;
-    text-decoration: none !important;
-  }
+.overskrift {
+  color: rgb(255, 255, 255);
+  font-family: var(--overskrift);
+  margin: 1%;
+  font-size: 170%;
+  text-decoration: none;
+}
