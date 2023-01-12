@@ -117,10 +117,11 @@ header {
 }
 
 #picture {
-  width: 50%;
+  width: 25%;
+  height: 100%;
   float: right;
-  border-radius: 20px;
-  position: absolute;
+  margin-right: 9%;
+  border-radius: 10px;
 }
 
 #passbilde {
