@@ -92,6 +92,24 @@ header {
   font-size: small;
 }
 
+#kontakt {
+  position: relative;
+  bottom: 2px;
+}
+
+#outside {
+  position: relative;
+}
+
+#git {
+  width: 5%;
+  margin-left: 1%;
+}
+
+#mail {
+  width: 5%;
+}
+
 #logo {
   width: 7%;
   float: right;
