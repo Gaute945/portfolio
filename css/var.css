@@ -1,9 +1,9 @@
 :root {
-    --light_purple: #661f2e90;
-    --purple: #70225a86;
-    --blue_purple: #521f597d;
-    --blue_purple2: #5222707a;
-    --blue_purple3: #371f667c;
+    --gray1: #9FA79D;
+    --green3: #C9D4C7;
+    --green2: #325928;
+    --green1: #ABED9A;
+    --gray2: #50544F;
     --overskrift: Verdana, Geneva, Tahoma, sans-serif;
     --brødtekst: Georgia, 'Times New Roman', Times, serif;
   }

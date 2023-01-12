@@ -1,6 +1,6 @@
 body {
   overflow-y: hidden;
-  background-color: var(--blue_purple3);
+  background-color: var(--gray2);
 }
 
 footer {
@@ -43,7 +43,7 @@ header {
 
 .backdrop {
   /*parent*/
-  background-color: var(--purple);
+  background-color: var(--green2);
   border-radius: 20px;
   height: auto;
   margin: 5%;
@@ -74,12 +74,16 @@ header {
 }
 
 .dropdown-content a:hover {
-  background-color: var(--blue_purple);
+  background-color: var(--green2);
   color: rgb(255, 255, 255);
 }
 
 .dropdown:hover .dropdown-content {
   display: block;
+}
+
+#link {
+  color: var(--green1) !important;
 }
 
 #byline {
