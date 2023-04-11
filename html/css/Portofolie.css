@@ -1,0 +1,55 @@
+body {
+  overflow-y: hidden;
+  background-color: var(--gray2);
+}
+
+footer {
+  color: #ffffff;
+  font-family: var(--brødtekst);
+  font-size: 110%;
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+}
+
+.tekst {
+  color: rgb(255, 255, 255);
+  font-family: var(--brødtekst);
+  margin: 1%;
+  text-decoration: none;
+  font-size: 110%;
+}
+
+.overskrift {
+  color: rgb(255, 255, 255);
+  font-family: var(--overskrift);
+  margin: 1%;
+  font-size: 170%;
+  text-decoration: none;
+}
+
+.backdrop {
+  background-color: var(--green2);
+  border-radius: 20px;
+  height: auto;
+  margin: 5%;
+  height: 80%;
+}
+
+#link {
+  color: var(--green1) !important;
+}
+
+#git {
+  width: 5%;
+  margin-left: 1%;
+}
+
+#mail {
+  width: 5%;
+}
+
+#logo {
+  float: right;
+  margin: 1%;
+}

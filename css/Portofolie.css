@@ -33,6 +33,10 @@ header {
   font-size: 110%;
 }
 
+.bold {
+  font-weight: bold;
+}
+
 .overskrift {
   color: rgb(255, 255, 255);
   font-family: var(--overskrift);
@@ -42,7 +46,6 @@ header {
 }
 
 .backdrop {
-  /*parent*/
   background-color: var(--green2);
   border-radius: 20px;
   height: auto;
@@ -50,7 +53,6 @@ header {
   height: 80%;
 }
 
-/* The container <div> - needed to position the dropdown content */
 .dropdown {
   float: left;
   padding-left: 20px;
@@ -82,8 +84,9 @@ header {
   display: block;
 }
 
-#link {
+.link {
   color: var(--green1) !important;
+  text-decoration: underline;
 }
 
 #byline {
