@@ -12,29 +12,12 @@ footer {
   text-align: center;
 }
 
-header {
-  position: fixed;
-  display: block;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-family: var(--overskrift)
-}
-
-.list {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 .tekst {
   color: rgb(255, 255, 255);
   font-family: var(--brødtekst);
   margin: 1%;
   text-decoration: none;
   font-size: 110%;
-}
-
-.bold {
-  font-weight: bold;
 }
 
 .overskrift {
@@ -53,55 +36,8 @@ header {
   height: 80%;
 }
 
-.dropdown {
-  float: left;
-  padding-left: 20px;
-}
-
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #ffffff;
-  border-radius: 20px;
-  color: black;
-}
-
-.dropdown-content a {
-  color: rgb(255, 255, 255);
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  border-radius: 20px;
-  color: black;
-}
-
-.dropdown-content a:hover {
-  background-color: var(--green2);
-  color: rgb(255, 255, 255);
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.link {
+#link {
   color: var(--green1) !important;
-  text-decoration: underline;
-}
-
-#byline {
-  color: white;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: small;
-}
-
-#kontakt {
-  position: relative;
-  bottom: 2px;
-}
-
-#outside {
-  position: relative;
 }
 
 #git {
@@ -114,23 +50,13 @@ header {
 }
 
 #logo {
-  width: 7%;
   float: right;
   margin: 1%;
 }
 
-#picture {
-  width: 25%;
-  height: 100%;
+#pic {
+  margin-right: 30%;
+  width: 16%;
   float: right;
-  margin-right: 9%;
-  border-radius: 10px;
+  border-radius: 5px;
 }
-
-#passbilde {
-  width: 20%;
-}
-
-/*
-to do
-*/
