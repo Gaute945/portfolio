@@ -43,12 +43,12 @@ footer {
 }
 
 #git {
-  width: 5%;
+  width: 10vh;
   margin-left: 1%;
 }
 
 #mail {
-  width: 5%;
+  width: 10vh;
 }
 
 #logo {
@@ -74,9 +74,9 @@ footer {
     width: 20vh;
   }
   #git {
-    width: 6vh;
+    width: 10vh;
   }
   #mail {
-    width: 6vh;
+    width: 10vh;
   }
 }
