@@ -34,6 +34,8 @@ footer {
   height: auto;
   margin: 5%;
   height: 80%;
+  overflow: hidden;
+  position: relative;
 }
 
 #link {
@@ -51,12 +53,30 @@ footer {
 
 #logo {
   float: right;
-  margin: 1%;
+  margin: 1%  1% 0% 0%;
+  width: 11vh;
 }
 
 #pic {
-  margin-right: 30%;
-  width: 16%;
-  float: right;
+  width: 17%;
   border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+.backdrop #logo {
+  display: flex;
+}
+
+@media (max-width: 1300px) {
+  #pic {
+    width: 20vh;
+  }
+  #git {
+    width: 6vh;
+  }
+  #mail {
+    width: 6vh;
+  }
 }
