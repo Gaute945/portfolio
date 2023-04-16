@@ -4,7 +4,6 @@ body {
   }
 
 .backdrop {
-    /*parent*/
     background-color: var(--purple);
     border-radius: 20px;
     height: auto;
