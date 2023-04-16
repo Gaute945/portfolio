@@ -36,7 +36,7 @@ footer {
   position: relative;
 }
 
-#link {
+.link {
   color: var(--green1) !important;
 }
 
