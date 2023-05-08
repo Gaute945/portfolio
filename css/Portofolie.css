@@ -16,7 +16,6 @@ footer {
   color: rgb(255, 255, 255);
   font-family: var(--brødtekst);
   margin: 1%;
-  font-size: 110%;
 }
 
 .overskrift {
@@ -24,6 +23,10 @@ footer {
   font-family: var(--overskrift);
   margin: 1%;
   font-size: 170%;
+}
+
+.main {
+  font-size: 2vh;
 }
 
 .backdrop {
