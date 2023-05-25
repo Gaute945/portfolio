@@ -4,7 +4,7 @@ body {
 }
 
 footer {
-  color: #ffffff;
+  color: var(--gray1);
   font-family: var(--brødtekst);
   font-size: 110%;
   position: absolute;
@@ -13,13 +13,13 @@ footer {
 }
 
 .tekst {
-  color: rgb(255, 255, 255);
+  color: var(--gray1);
   font-family: var(--brødtekst);
   margin: 1%;
 }
 
 .overskrift {
-  color: rgb(255, 255, 255);
+  color: var(--gray1);
   font-family: var(--overskrift);
   margin: 1%;
   font-size: 170%;
