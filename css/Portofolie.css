@@ -43,6 +43,14 @@ footer {
   color: var(--green1) !important;
 }
 
+.hide {
+  display: none;
+}
+
+.myDIV:hover + .hide {
+  display: flex;
+}
+
 #git {
   width: 10vh;
   margin-left: 1%;
